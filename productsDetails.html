@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> All Products - EazyBuy </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">"
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/all.min.css">
+</head>
+<body>
+
+    
+      <div class="container">
+        <div class="navbar">
+           <!--<div class ="logo">
+                <img src="Redstore_Img/logo.png"width="125px">
+            </div>--> 
+            <h3> EazyBuy</h3>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home </a></li> 
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About</a></li> 
+                    <li><a href="">Contact Us</a></li> 
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href ="shoppingcart.html"><img src="imagespro/cart.png" width="30px" height="30px">
+            </a>
+            <img src="imagespro/menu.png" class="menu-icon"
+             onclick="menutoggle()">
+        </div>
+       
+    </div>
+    <!----Single Products Details-->
+    <div class=" small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="imagespro/gallery-1.jpg" width="100%" id="ProductImg">
+
+                 <div class="small-img-row">
+                    <div class="small-img-col">
+                       <img src="imagespro/gallery-1.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="imagespro/gallery-2.jpg" width="100%" class="small-img">
+                     </div>
+                     <div class="small-img-col">
+                        <img src="imagespro/gallery-3.jpg" width="100%" class="small-img">
+                     </div>
+                     <div class="small-img-col">
+                        <img src="imagespro/gallery-4.jpg" width="100%" class="small-img">
+                     </div>
+                 </div>
+
+              </div>
+            <div class="col-2">
+                <p>Home / T-shirt</p>
+                <h1>Red Printed T-shirt by HRX</h1>
+                <h4>$50.00</h4>
+                <select>
+                    <option>Select size</option>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                </select>
+                <input type="number" value="1">
+                <a href="" class="btn">Add To Cart</a>
+                <h3> Product Details <i class="fa fa-indent"></i></h3>
+                <br>
+                <p>Give your summer wardrobe a style upgrade with the HRX
+                    Men's Active T-shirt .Team it with a pair of shorts for 
+                    your morning workout or a denims for an evening out 
+                    with the guys.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+<!----title-->
+<div class="small-container">
+    <div class="row row-2">
+        <h2>Related Products</h2>
+        <p>View More</p>
+
+    </div>
+</div>
+
+     <!---products-->
+  <div class="small-container">
+    <div class="row row-2">
+        <h2>All Products</h2>
+        <select>
+           <option> Default Sorting</option>
+           <option> Sort by price</option>
+           <option> Sort by popularity</option>
+           <option> Sort by rating</option>
+           <option> Sort by sale</option>
+        </select>
+
+    </div>
+    
+    <div class="row">
+        <div class="col-4">
+            <img src="imagespro/product-1.jpg">
+            <h4>Red Printed T-shirt</h4>
+            <div class="ratings">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="imagespro/product-2.jpg">
+            <h4>Red Printed T-shirt</h4>
+            <div class="ratings">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="imagespro/product-3.jpg">
+            <h4>Red Printed T-shirt</h4>
+            <div class="ratings">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="imagespro/product-4.jpg">
+            <h4>Red Printed T-shirt</h4>
+            <div class="ratings">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+     </div>
+     
+    
+  </div>
+<!---footer-->
+<section id="contact">
+    <div id="contact" class="footer-content">
+        <div class="footer-section contact-section">
+            <h3><i class="fas fa-paper-plane"></i> Contact Us</h3>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:info@eazybuy.com">info@EazyBuy.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Kerala, India</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-section social-section">
+            <h3><i class="fas fa-share-alt"></i> Follow Us</h3>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/maria-s-patani" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="https://github.com/mariaspatani" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 EazyBuy. All rights reserved.</p>
+
+    </div>
+</section>
+<!---js for toggle menu-->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItem.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItem.style.maxHeight == "0px")
+            {
+             MenuItem.style.maxHeight = "200px";
+            }
+        else
+        {
+            MenuItem.style.maxHeight = "0px";
+        }
+    }
+
+</script>
+<!---js for product gallery-->
+<script>
+    var ProductImg=document.getElementById("ProductImg");
+      var SmallImg=document.getElementsByClassName("small-img");
+
+      SmallImg[0].onclick = function()
+       {
+        ProductImg.src = SmallImg[0].src;
+       }
+       SmallImg[1].onclick = function()
+       {
+        ProductImg.src = SmallImg[1].src;
+       }
+       SmallImg[2].onclick = function()
+       {
+        ProductImg.src = SmallImg[2].src;
+       }
+       SmallImg[3].onclick = function()
+       {
+        ProductImg.src = SmallImg[3].src;
+       }
+</script>
+ 
+</body>
+</html>
